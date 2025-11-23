@@ -1,0 +1,27 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "ctrl+e",
+        "command": "cursorLineEnd"
+    },
+    {
+        "key": "ctrl+shift+e",
+        "command": "cursorLineEndSelect"
+    },
+    {
+        "key": "ctrl+capslock ctrl+e",
+        "command": "cursorLineStart"
+    },
+    {
+        "key": "ctrl+shift+capslock ctrl+shift+e",
+        "command": "cursorLineStartSelect"
+    },
+    {
+        "key": "alt+oem_3",
+        "command": "editor.togglequotes"
+    },
+    {
+        "key": "ctrl+oem_7",
+        "command": "-editor.togglequotes"
+    }
+]
