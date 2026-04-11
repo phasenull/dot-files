@@ -5,7 +5,7 @@ echo "[✔︎] Copied .zshrc to ~/"
 source ~/.zshrc
 
 sh ./01-brew.sh
-sh ./02-bun.sh
+# sh ./02-bun.sh
 
 
 

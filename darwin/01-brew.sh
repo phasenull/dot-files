@@ -19,6 +19,8 @@ defaults write NSGlobalDomain "com.apple.springing.enabled" -int 1;
 defaults write NSGlobalDomain "com.apple.swipescrolldirection" -int 1;
 defaults write NSGlobalDomain "com.apple.trackpad.forceClick" -int 1;
 
+mkdir ~/projects
+
 if command -v brew &>/dev/null; then
   echo "[✔︎] brew already installed, updating..."
   brew update
@@ -35,20 +37,20 @@ else
     brew install --cask visual-studio-code
 fi
 
-if command -v discord &>/dev/null; then
+if [-d /Applications/Discord.app ]; then
     echo "[✔︎] discord exists, skipped."
 else
     echo "[...] Installing discord"
     brew install --cask discord
 fi
-if command -v linearmouse &>/dev/null; then
+if [-d /Applications/LinearMouse.app ]; then
     echo "[✔︎] linearmouse exists, skipped."
 else
     echo "[...] Installing linearmouse"
     brew install --cask linearmouse
 fi
 
-if command -v iterm2 &>/dev/null; then
+if [ -d /Applications/iTerm.app ]; then
     echo "[✔︎] iterm2 exists, skipped."
 else
     echo "[...] Installing iterm2"
