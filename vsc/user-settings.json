@@ -1,0 +1,82 @@
+{
+	"workbench.iconTheme": "vscode-icons",
+	"editor.fontWeight": "600",
+	"editor.fontFamily": "Cascadia Mono",
+	"workbench.secondarySideBar.defaultVisibility": "hidden",
+	"terminal.external.windowsExec": "wt",
+	"gitlens.graph.minimap.enabled": false,
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"editor.insertSpaces": false,
+	"workbench.editor.limit.enabled": true,
+	"workbench.editor.limit.value": 6,
+	"editor.wordBasedSuggestions": "off",
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"diffEditor.diffAlgorithm": "advanced",
+	"diffEditor.experimental.showMoves": true,
+	"explorer.confirmDragAndDrop": false,
+	"prettier.useTabs": true,
+	"editor.tabSize": 3,
+	"editor.mouseWheelZoom": true,
+	"prettier.semi": false,
+	"files.autoSave": "onFocusChange",
+	"explorer.confirmDelete": false,
+	"editor.suggest.showWords": false,
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"vscord.app.name": "Visual Studio Code",
+	"vscord.app.whitelistIsBlacklist": true,
+	"vscord.app.whitelistEnabled": true,
+	"editor.suggest.insertMode": "replace",
+	"prettier.trailingComma": "none",
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"vsicons.dontShowNewVersionMessage": true,
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"luau-lsp.studioPlugin.maximumRequestBodySize": 6291456,
+	"git.defaultBranchName": "master",
+	"git.enableSmartCommit": true,
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"github.copilot.enable": {
+		"*": false,
+		"plaintext": false,
+		"markdown": false,
+		"scminput": false
+	},
+	"remote.SSH.remotePlatform": {
+	},
+	"chat.instructionsFilesLocations": {
+		".github/instructions": true
+	},
+	"postman.mcp.notifications.postmanMCP": false,
+	"gitlens.ai.model": "vscode",
+	"gitlens.ai.vscode.model": "copilot:gpt-4.1",
+	"luau-lsp.completion.imports.stringRequires.enabled": true,
+	"robloxLsp.hint.variableType": false,
+	"luau-lsp.inlayHints.makeInsertable": false,
+	"git.confirmSync": false,
+	"robloxLsp.workspace.rojoExecutablePath": "C:/Users/phasenull/.rokit/bin/rojo.exe",
+	"python.defaultInterpreterPath": "c:\\Users\\phasenull\\Documents\\path\\python.exe",
+	"github.copilot.nextEditSuggestions.enabled": true,
+	"xml.server.vmargs": "-Xmx128M",
+	"chat.tools.terminal.outputLocation": "chat",
+	"chat.viewSessions.orientation": "stacked",
+	"typescript.experimental.useTsgo": true,
+	"diffEditor.ignoreTrimWhitespace": false,
+	"luau-lsp.completion.autocompleteEnd": true,
+	"luau-lsp.completion.imports.requireStyle": "auto",
+	"luau-lsp.plugin.enabled": true,
+	"claudeCode.preferredLocation": "panel",
+	"luau-lsp.format.convertQuotes": true,
+	"luau-lsp.sourcemap.useVSCodeWatcher": true,
+	"luau-lsp.studioPlugin.enabled": true,
+	"luau-lsp.completion.showDeprecatedItems": false
+}
