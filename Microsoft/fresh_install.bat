@@ -72,6 +72,21 @@ taskkill /f /im explorer.exe
 start explorer.exe
 
 powershell -NoProfile -ExecutionPolicy Bypass -File bt-audio-fix.ps1 -Apply
+@REM ---------- dev toolchain (mirrors darwin/.zshrc + 02-bun.sh) ----------
+winget install -e --id Microsoft.VisualStudioCode --silent --accept-package-agreements --accept-source-agreements --override "/VERYSILENT /MERGETASKS=!runcode,addcontextmenufiles,addcontextmenufolders,addtopath"
+winget install -e --id OpenJS.NodeJS.LTS --silent --accept-package-agreements --accept-source-agreements
+winget install -e --id Oven-sh.Bun --silent --accept-package-agreements --accept-source-agreements
+
+@REM roblox-ts (rbxtsc) as a global npm package. npm is not on this shell's PATH yet, so call it by path.
+"%ProgramFiles%\nodejs\npm.cmd" install -g roblox-ts
+
+@REM Rokit: latest release zip from GitHub, then its own self-install
+@REM (copies itself to %USERPROFILE%\.rokit\bin and puts that on PATH). Rojo is then a Rokit-managed tool.
+powershell -NoProfile -Command "$a = (Invoke-RestMethod https://api.github.com/repos/rojo-rbx/rokit/releases/latest).assets | Where-Object name -like '*windows-x86_64.zip'; Invoke-WebRequest $a.browser_download_url -OutFile \"$env:TEMP\rokit.zip\"; Expand-Archive \"$env:TEMP\rokit.zip\" \"$env:TEMP\rokit\" -Force; & \"$env:TEMP\rokit\rokit.exe\" self-install"
+"%USERPROFILE%\.rokit\bin\rokit.exe" add --global rojo-rbx/rojo
+
+@REM ---------- VS Code config from vsc/ ----------
+powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0..\vsc\import.ps1"
 
 curl -L -o "%TEMP%\Cloudflare_WARP.msi" https://downloads.cloudflareclient.com/v1/download/windows/ga
 start /wait "" "%TEMP%\Cloudflare_WARP.msi"
