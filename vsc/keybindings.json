@@ -23,5 +23,9 @@
     {
         "key": "ctrl+oem_7",
         "command": "-editor.togglequotes"
+    },
+    {
+        "key": "ctrl+shift+w",
+        "command": "-workbench.action.closeWindow"
     }
 ]

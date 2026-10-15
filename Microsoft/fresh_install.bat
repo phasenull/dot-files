@@ -65,13 +65,17 @@ reg add "HKCU\Keyboard Layout\Toggle" /v "Hotkey" /t REG_SZ /d 3 /f
 
 
 
+reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" ^
+ /v HideIcons /t REG_DWORD /d 1 /f
+
 powercfg /hibernate off
 powercfg /change monitor-timeout-ac 20
 
 taskkill /f /im explorer.exe
 start explorer.exe
 
-powershell -NoProfile -ExecutionPolicy Bypass -File bt-audio-fix.ps1 -Apply
+@REM Bluetooth headphones stuck at "Connected" (no music profile): adapter power saving off, handsfree off
+powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0bt-audio-fix.ps1" -Apply
 @REM ---------- dev toolchain (mirrors darwin/.zshrc + 02-bun.sh) ----------
 winget install -e --id Microsoft.VisualStudioCode --silent --accept-package-agreements --accept-source-agreements --override "/VERYSILENT /MERGETASKS=!runcode,addcontextmenufiles,addcontextmenufolders,addtopath"
 winget install -e --id OpenJS.NodeJS.LTS --silent --accept-package-agreements --accept-source-agreements
@@ -87,6 +91,29 @@ powershell -NoProfile -Command "$a = (Invoke-RestMethod https://api.github.com/r
 
 @REM ---------- VS Code config from vsc/ ----------
 powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0..\vsc\import.ps1"
+
+@REM ---------- apps via winget ----------
+for %%i in (
+    Discord.Discord
+    Valve.Steam
+    EpicGames.EpicGamesLauncher
+    Roblox.Roblox
+    Roblox.RobloxStudio
+    Anthropic.ClaudeCode
+    Anthropic.Claude
+    Docker.DockerDesktop
+    Git.Git
+    Brave.Brave
+) do winget install -e --id %%i --silent --accept-package-agreements --accept-source-agreements
+
+@REM Spotify's installer refuses to run elevated and this script runs as admin,
+@REM so install it with a plain user token instead.
+runas /trustlevel:0x20000 "winget install -e --id Spotify.Spotify --silent --accept-package-agreements --accept-source-agreements"
+@REM alternative, Store build: winget install -e --id 9NCBCSZSJRSB --source msstore --accept-package-agreements --accept-source-agreements
+
+@REM ---------- Brave config from brave/ (profile seed + policies; needs this elevated shell) ----------
+@REM -Replace wipes the profile Brave's installer creates when it auto-launches after install.
+powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0brave\brave-import.ps1" -Force -Replace
 
 curl -L -o "%TEMP%\Cloudflare_WARP.msi" https://downloads.cloudflareclient.com/v1/download/windows/ga
 start /wait "" "%TEMP%\Cloudflare_WARP.msi"

@@ -51,20 +51,17 @@
 		"markdown": false,
 		"scminput": false
 	},
-	"remote.SSH.remotePlatform": {
-	},
+	"remote.SSH.remotePlatform": {},
 	"chat.instructionsFilesLocations": {
 		".github/instructions": true
 	},
 	"postman.mcp.notifications.postmanMCP": false,
-	"gitlens.ai.model": "vscode",
-	"gitlens.ai.vscode.model": "copilot:gpt-4.1",
 	"luau-lsp.completion.imports.stringRequires.enabled": true,
 	"robloxLsp.hint.variableType": false,
 	"luau-lsp.inlayHints.makeInsertable": false,
 	"git.confirmSync": false,
-	"robloxLsp.workspace.rojoExecutablePath": "C:/Users/phasenull/.rokit/bin/rojo.exe",
-	"python.defaultInterpreterPath": "c:\\Users\\phasenull\\Documents\\path\\python.exe",
+	"robloxLsp.workspace.rojoExecutablePath": "%USERPROFILE%/.rokit/bin/rojo.exe",
+	"python.defaultInterpreterPath": "%USERPROFILE%\\Documents\\path\\python.exe",
 	"github.copilot.nextEditSuggestions.enabled": true,
 	"xml.server.vmargs": "-Xmx128M",
 	"chat.tools.terminal.outputLocation": "chat",
@@ -78,5 +75,8 @@
 	"luau-lsp.format.convertQuotes": true,
 	"luau-lsp.sourcemap.useVSCodeWatcher": true,
 	"luau-lsp.studioPlugin.enabled": true,
-	"luau-lsp.completion.showDeprecatedItems": false
+	"luau-lsp.completion.showDeprecatedItems": false,
+	"robloxLsp.typeChecking.mode": "Strict",
+	"jdk.telemetry.enabled": false,
+	"claudeCode.hideOnboarding": true
 }

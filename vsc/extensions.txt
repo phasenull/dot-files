@@ -20,10 +20,15 @@ ms-vscode.cpp-devtools
 ms-vscode.cpptools
 ms-vscode.cpptools-extension-pack
 ms-vscode.cpptools-themes
+ms-vscode.remote-explorer
+ms-vscode-remote.remote-ssh
+ms-vscode-remote.remote-ssh-edit
 nightrains.robloxlsp
 platformio.platformio-ide
 redhat.java
 redhat.vscode-xml
 roblox-ts.vscode-roblox-ts
 typescriptteam.native-preview
+usernamehw.errorlens
+vscjava.vscode-java-debug
 vscode-icons-team.vscode-icons

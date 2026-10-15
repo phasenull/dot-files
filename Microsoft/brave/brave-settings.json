@@ -1,0 +1,441 @@
+{
+  "exported_at": "2026-10-15T15:00:08",
+  "preferences": {
+    "alternate_error_pages": {
+      "backup": false
+    },
+    "bookmark_bar": {
+      "show_on_all_tabs": true
+    },
+    "NewTabPage": {
+      "CustomizeChromeExplicitlyClosed": true
+    },
+    "ntp": {
+      "num_personal_suggestions": 3,
+      "shortcust_visible": false
+    },
+    "intl": {
+      "selected_languages": "en-US,en"
+    },
+    "spellcheck": {
+      "dictionaries": [
+        "en-US"
+      ],
+      "dictionary": ""
+    },
+    "settings": {
+      "a11y": {
+        "caretbrowsing": {
+          "enabled": false
+        }
+      },
+      "force_google_safesearch": false
+    },
+    "tab_search": {
+      "pinned_to_tabstrip": true
+    },
+    "toolbar": {
+      "pinned_cast_migration_complete": true,
+      "pinned_chrome_labs_migration_complete": true
+    },
+    "vertical_tabs": {
+      "collapsed_state": false,
+      "uncollapsed_width": 240
+    },
+    "credentials_enable_service": false,
+    "savefile": {
+      "default_directory": "%USERPROFILE%\\Downloads"
+    },
+    "omnibox": {
+      "prevent_url_elisions": true
+    },
+    "privacy_sandbox": {
+      "first_party_sets_enabled": false
+    },
+    "profile": {
+      "name": "Your Brave",
+      "avatar_index": 26,
+      "default_content_setting_values": {
+        "has_migrated_local_network_access": true
+      }
+    },
+    "browser": {
+      "clear_data": {
+        "brave_leo": true,
+        "browsing_history_on_exit": true,
+        "cache_on_exit": true,
+        "form_data": true,
+        "hosted_apps_data": true,
+        "site_settings": true,
+        "time_period": 4
+      },
+      "theme": {
+        "color_scheme": 2,
+        "color_scheme2": 2,
+        "saved_local_theme": "CAAQAEIASAE="
+      }
+    },
+    "brave": {
+      "accelerators": {
+        "33000": [
+          "Alt+ArrowLeft",
+          "AltGr+ArrowLeft"
+        ],
+        "33001": [
+          "Alt+ArrowRight",
+          "AltGr+ArrowRight"
+        ],
+        "33002": [
+          "Control+KeyR",
+          "F5"
+        ],
+        "33003": [
+          "Alt+Home"
+        ],
+        "33007": [
+          "Control+Shift+KeyR",
+          "Control+F5",
+          "Shift+F5"
+        ],
+        "34000": [
+          "Control+KeyN"
+        ],
+        "34001": [
+          "Control+Shift+KeyN"
+        ],
+        "34012": [
+          "Control+Shift+KeyW",
+          "Alt+F4"
+        ],
+        "34014": [
+          "Control+KeyT"
+        ],
+        "34015": [
+          "Control+KeyW",
+          "Control+F4"
+        ],
+        "34016": [
+          "Control+PageDown"
+        ],
+        "34017": [
+          "Control+PageUp"
+        ],
+        "34018": [
+          "Control+Digit1",
+          "Control+Numpad1"
+        ],
+        "34019": [
+          "Control+Digit2",
+          "Control+Numpad2"
+        ],
+        "34020": [
+          "Control+Digit3",
+          "Control+Numpad3"
+        ],
+        "34021": [
+          "Control+Digit4",
+          "Control+Numpad4"
+        ],
+        "34022": [
+          "Control+Digit5",
+          "Control+Numpad5"
+        ],
+        "34023": [
+          "Control+Digit6",
+          "Control+Numpad6"
+        ],
+        "34024": [
+          "Control+Digit7",
+          "Control+Numpad7"
+        ],
+        "34025": [
+          "Control+Digit8",
+          "Control+Numpad8"
+        ],
+        "34026": [
+          "Control+Digit9",
+          "Control+Numpad9"
+        ],
+        "34028": [
+          "Control+Shift+KeyT"
+        ],
+        "34030": [
+          "F11"
+        ],
+        "34032": [
+          "Control+Shift+PageDown"
+        ],
+        "34033": [
+          "Control+Shift+PageUp"
+        ],
+        "34057": [
+          "Control+Alt+KeyT"
+        ],
+        "34061": [
+          "Control+Shift+KeyL"
+        ],
+        "34062": [
+          "Control+Tab"
+        ],
+        "34063": [
+          "Control+Shift+Tab"
+        ],
+        "34100": [
+          "Alt+Shift+KeyC"
+        ],
+        "34101": [
+          "Alt+Shift+KeyP"
+        ],
+        "34102": [
+          "Alt+Shift+KeyX"
+        ],
+        "34103": [
+          "Alt+Shift+KeyZ"
+        ],
+        "34104": [
+          "Alt+Shift+KeyW"
+        ],
+        "35000": [
+          "Control+KeyD"
+        ],
+        "35001": [
+          "Control+Shift+KeyD"
+        ],
+        "35002": [
+          "Control+KeyU"
+        ],
+        "35003": [
+          "Control+KeyP"
+        ],
+        "35004": [
+          "Control+KeyS"
+        ],
+        "35007": [
+          "Control+Shift+KeyP"
+        ],
+        "35031": [
+          "Control+Shift+KeyS"
+        ],
+        "37000": [
+          "Control+KeyF"
+        ],
+        "37001": [
+          "Control+KeyG",
+          "F3"
+        ],
+        "37002": [
+          "Control+Shift+KeyG",
+          "Shift+F3"
+        ],
+        "37003": [
+          "Escape"
+        ],
+        "38001": [
+          "Control+Equal",
+          "Control+NumpadAdd",
+          "Control+Shift+Equal"
+        ],
+        "38002": [
+          "Control+Digit0",
+          "Control+Numpad0"
+        ],
+        "38003": [
+          "Control+Minus",
+          "Control+NumpadSubtract",
+          "Control+Shift+Minus"
+        ],
+        "39000": [
+          "Alt+Shift+KeyT"
+        ],
+        "39001": [
+          "Control+KeyL",
+          "Alt+KeyD"
+        ],
+        "39002": [
+          "BrowserSearch",
+          "Control+KeyE",
+          "Control+KeyK"
+        ],
+        "39003": [
+          "F10",
+          "AltGr",
+          "Alt"
+        ],
+        "39004": [
+          "F6"
+        ],
+        "39005": [
+          "Shift+F6"
+        ],
+        "39006": [
+          "Alt+Shift+KeyB"
+        ],
+        "39007": [
+          "Alt+Shift+KeyA"
+        ],
+        "39009": [
+          "Control+F6"
+        ],
+        "40000": [
+          "Control+KeyO"
+        ],
+        "40004": [
+          "Control+Shift+KeyI"
+        ],
+        "40005": [
+          "Control+Shift+KeyJ"
+        ],
+        "40009": [
+          "Control+Shift+KeyB"
+        ],
+        "40010": [
+          "Control+KeyH"
+        ],
+        "40011": [
+          "Control+Shift+KeyO"
+        ],
+        "40012": [
+          "Control+KeyJ"
+        ],
+        "40013": [
+          "Control+Shift+Delete"
+        ],
+        "40019": [
+          "F1"
+        ],
+        "40021": [
+          "Alt+KeyE",
+          "Alt+KeyF"
+        ],
+        "40023": [
+          "Control+Shift+KeyC"
+        ],
+        "40134": [
+          "Control+Shift+KeyM"
+        ],
+        "40237": [
+          "F12"
+        ],
+        "40260": [
+          "F7"
+        ],
+        "40286": [
+          "Shift+Escape"
+        ],
+        "40303": [
+          "Alt+Shift+KeyR"
+        ],
+        "52500": [
+          "Control+Shift+KeyA"
+        ],
+        "56003": [
+          "Alt+Shift+KeyN"
+        ],
+        "56041": [
+          "Control+KeyM"
+        ],
+        "56044": [
+          "Control+KeyB"
+        ],
+        "56301": [
+          "Control+Space"
+        ]
+      },
+      "ai_chat": {
+        "autocomplete_provider_enabled": false,
+        "show_toolbar_button": false
+      },
+      "always_show_bookmark_bar_on_ntp": false,
+      "autocomplete_enabled": true,
+      "ask_widevine_install": true,
+      "enable_media_router_on_restart": true,
+      "enable_window_closing_confirm": false,
+      "has_seen_brave_welcome_page": true,
+      "location_bar_is_wide": false,
+      "new_tab_page": {
+        "background": {
+          "random": false,
+          "selected_value": "radial-gradient(80% 80% at 101.61% 76.99%, #2D0264 0%, #030023 100%)",
+          "type": "color"
+        },
+        "show_background_image": true,
+        "show_brave_news": false,
+        "show_brave_vpn": false,
+        "show_rewards": false,
+        "show_together": false
+      },
+      "omnibox": {
+        "commander_suggestions_enabled": false
+      },
+      "search": {
+        "default_version": 32
+      },
+      "shields": {
+        "advanced_view_enabled": true,
+        "disabled_count": 2
+      },
+      "show_bookmarks_button": false,
+      "show_side_panel_button": false,
+      "sidebar": {
+        "hidden_built_in_items": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "item_added_feedback_bubble_shown_count": 1,
+        "last_used_built_in_item_type": 7,
+        "sidebar_items": [
+          {
+            "built_in_item_type": 7,
+            "type": 0
+          }
+        ]
+      },
+      "tabs": {
+        "vertical_tabs_collapsed": false,
+        "vertical_tabs_enabled": true,
+        "vertical_tabs_expanded_width": 257,
+        "vertical_tabs_floating_enabled": false,
+        "vertical_tabs_on_right": true,
+        "vertical_tabs_show_title_on_window": false
+      },
+      "top_site_suggestions_enabled": false,
+      "today": {
+        "should_show_toolbar_button": false
+      },
+      "rewards": {
+        "show_brave_rewards_button_in_location_bar": false
+      },
+      "wallet": {
+        "show_wallet_icon_on_toolbar": false
+      },
+      "brave_vpn": {
+        "show_button": false
+      }
+    }
+  },
+  "protected_preferences": {
+    "default_search_provider_data": {
+      "short_name": "Brave",
+      "keyword": ":br",
+      "url": "https://search.brave.com/search?q={searchTerms}&source=desktop",
+      "suggestions_url": "https://search.brave.com/api/suggest?q={searchTerms}&rich=true&rich_verticals=true&source=desktop",
+      "favicon_url": "https://cdn.search.brave.com/serp/v3/_app/immutable/assets/favicon.CVXAaejQ.svg",
+      "prepopulate_id": 550
+    },
+    "session": {
+      "restore_on_startup": 1
+    }
+  },
+  "local_state": {
+    "brave": {
+      "ad_block": {
+        "checked_all_default_regions": true
+      },
+      "widevine_opted_in": true,
+      "dont_ask_for_crash_reporting": true,
+      "enable_search_suggestions_by_default": true
+    }
+  }
+}
