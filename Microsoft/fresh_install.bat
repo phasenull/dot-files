@@ -71,7 +71,7 @@ powercfg /change monitor-timeout-ac 20
 taskkill /f /im explorer.exe
 start explorer.exe
 
-powershell -NoProfile -ExecutionPolicy Bypass -File bt-audio-fix.ps1 -Status
+powershell -NoProfile -ExecutionPolicy Bypass -File bt-audio-fix.ps1 -Apply
 
 curl -L -o "%TEMP%\Cloudflare_WARP.msi" https://downloads.cloudflareclient.com/v1/download/windows/ga
 start /wait "" "%TEMP%\Cloudflare_WARP.msi"
